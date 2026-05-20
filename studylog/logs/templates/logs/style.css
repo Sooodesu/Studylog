@@ -1,0 +1,19 @@
+body {
+    background-color: #f5f7fa;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card-title {
+    color: #0d6efd;
+}
+
+.btn {
+    border-radius: 10px;
+}
