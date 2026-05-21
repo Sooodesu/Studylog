@@ -1,0 +1,26 @@
+{% extends 'logs/base.html' %}
+
+{% block content %}
+
+<h1 class="text-danger">
+    タグ削除
+</h1>
+
+<p>
+    {{ tag.name }} を削除しますか？
+</p>
+
+<form method="POST">
+
+    {% csrf_token %}
+
+    <button
+        type="submit"
+        class="btn btn-danger"
+    >
+        削除
+    </button>
+
+</form>
+
+{% endblock %}
